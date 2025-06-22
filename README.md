@@ -97,4 +97,3 @@ For questions or suggestions, feel free to reach out to:
 
 - **Ali Hamza**
 - GitHub: [AliHamza-071](https://github.com/AliHamza-071)
-- Email: [your-email@example.com](mailto:your-email@example.com)
