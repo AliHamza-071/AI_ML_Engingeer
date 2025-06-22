@@ -1,6 +1,6 @@
 # AI/ML Engineer Project Collection
 
-Welcome to the **AI/ML Engineer** repository! This repository showcases a collection of end-to-end Artificial Intelligence and Machine Learning projects, each demonstrating different aspects of real-world AI/ML solutions—from NLP and clustering to time-series anomaly and satellite image analysis.
+Welcome to the **AI/ML Engineer** repository! This repository features a curated collection of advanced Artificial Intelligence and Machine Learning projects. Each project demonstrates hands-on applications of modern AI/ML techniques across domains such as NLP, Computer Vision, Clustering, and Time-Series Analysis.
 
 ---
 
@@ -18,12 +18,7 @@ Welcome to the **AI/ML Engineer** repository! This repository showcases a collec
 
 ## Project Overview
 
-This repository is designed for learning, demonstration, and portfolio purposes. It contains diverse AI/ML applications:
-- Unsupervised customer segmentation
-- Fake news detection with NLP and deep learning
-- Sentiment analysis of reviews
-- Anomaly detection in financial time-series data
-- Satellite imagery analysis
+This repository is designed for learning, demonstration, and portfolio-building. It includes diverse and fully implemented AI/ML projects, each in its own script or Jupyter notebook. Explore clustering, sentiment analysis, fake news detection, multi-label emotion recognition, time-series anomaly detection, and satellite imagery analysis.
 
 ---
 
@@ -32,13 +27,14 @@ This repository is designed for learning, demonstration, and portfolio purposes.
 ```
 AI_ML_Engingeer/
 │
-├── Customer_Segmentation.py                  # Customer segmentation using clustering
-├── Fake_News_Detection.py                    # Fake news detection using NLP and deep learning
-├── Financial Time-Series Anomaly Detection.ipynb   # Anomaly detection in financial data (notebook)
-├── Review_sentimental_Analysis.py            # Sentiment analysis on reviews
-├── Setllite_imagry_analysis.ipynb            # Satellite imagery analysis (notebook)
-├── LICENSE                                   # Project license
-└── README.md                                 # Project documentation
+├── Customer_Segmentation.py                         # Customer segmentation using clustering
+├── Fake_News_Detection.py                           # Fake news detection using NLP and deep learning
+├── Financial Time-Series Anomaly Detection.ipynb     # Anomaly detection in financial time-series data
+├── Multi-Label Emotion Recognition from Text.ipynb   # Multi-label emotion recognition using NLP
+├── Review_sentimental_Analysis.py                   # Sentiment analysis on textual reviews
+├── Setllite_imagry_analysis.ipynb                   # Satellite imagery analysis with ML/CV
+├── LICENSE                                          # Project license
+└── README.md                                        # Project documentation
 ```
 
 ---
@@ -58,11 +54,11 @@ AI_ML_Engingeer/
     ```
 
 3. **Install dependencies:**
-    - Each project may require specific libraries (pandas, scikit-learn, numpy, matplotlib, nltk, tensorflow, keras, etc.)
+    - Each project may require specific libraries (pandas, scikit-learn, numpy, matplotlib, nltk, tensorflow, keras, torch, plotly, seaborn, etc.)
     - Check each script/notebook for import statements.
-    - You can install common dependencies with:
+    - Install common dependencies with:
       ```bash
-      pip install pandas numpy matplotlib scikit-learn nltk tensorflow keras plotly seaborn
+      pip install pandas numpy matplotlib scikit-learn nltk tensorflow keras torch plotly seaborn notebook
       ```
     - For notebooks, ensure you have jupyter installed:
       ```bash
@@ -74,19 +70,22 @@ AI_ML_Engingeer/
 ## Project Descriptions
 
 - **Customer_Segmentation.py**  
-  Applies clustering algorithms (KMeans, Hierarchical) to segment customers using features like age, income, and spending score. Visualizes clusters using 2D and 3D plots and analyzes demographic distributions.
+  Segments customers using clustering algorithms (KMeans, Hierarchical, 3D visualization) on features like age, income, and spending score. Visualizes clusters and analyzes demographic distributions.
 
 - **Fake_News_Detection.py**  
-  Implements fake news detection using NLP techniques and machine learning models (Naive Bayes, Random Forest, and LSTM neural network). Includes text preprocessing, training, evaluation, and sample predictions.
+  Detects fake news using NLP preprocessing and multiple machine learning models (Naive Bayes, Random Forest, LSTM). Includes sample predictions and in-depth model evaluation.
 
 - **Financial Time-Series Anomaly Detection.ipynb**  
-  A Jupyter notebook demonstrating anomaly detection techniques on financial time-series data. Useful for detecting outliers or fraudulent activity in financial datasets.
+  Jupyter notebook for anomaly detection in financial time-series data using statistical and ML techniques. Useful for fraud/outlier detection in finance.
+
+- **Multi-Label Emotion Recognition from Text.ipynb**  
+  Notebook implementing multi-label emotion classification on text data, leveraging NLP and deep learning to recognize multiple emotions in a single sentence or document.
 
 - **Review_sentimental_Analysis.py**  
-  Performs sentiment analysis on IMDB review data using text preprocessing and multiple machine learning models (Logistic Regression, Naive Bayes, SVM). Compares model performances and allows testing on sample reviews.
+  Sentiment analysis of textual reviews (IMDB dataset) with logistic regression, Naive Bayes, and SVM. Text preprocessing, TF-IDF features, and model comparison included.
 
 - **Setllite_imagry_analysis.ipynb**  
-  A Jupyter notebook for satellite imagery analysis. Applies image processing and machine learning/CV techniques to extract insights from satellite data.
+  Satellite imagery analysis using computer vision and machine learning. Demonstrates data loading, preprocessing, and pattern recognition from satellite images.
 
 ---
 
@@ -102,7 +101,8 @@ AI_ML_Engingeer/
 
 - For Jupyter notebooks:
     ```bash
-    jupyter notebook Financial\ Time-Series\ Anomaly\ Detection.ipynb
+    jupyter notebook "Financial Time-Series Anomaly Detection.ipynb"
+    jupyter notebook "Multi-Label Emotion Recognition from Text.ipynb"
     jupyter notebook Setllite_imagry_analysis.ipynb
     ```
 
